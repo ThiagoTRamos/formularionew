@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <section>
+        <h2>Assine já </h2>
+        <form action="https://api.staticforms.xyz/submit" method="post">
+
+            <label>Nome completo:</label>
+            <input type="text" name="$nome" placeholder="Digite seu nome" autocomplete="off" required>
+
+            <label>Email:</label>
+            <input type="email" name="email" placeholder="Digite seu email" autocomplete="off" required>
+
+            <label>Telefone:</label>
+            <input type="text" name="$telefone" placeholder="Digite seu número" autocomplete="off" required>
+
+            <label>Endereço:</label>
+            <input type="text" name="$endereço" placeholder="Digite seu endereço" autocomplete="off" required>
+            <br>
+            
+            <label>Cidade:</p>
+                <br>
+            <input type="radio" name="$cidade" name="cidade" value="ITAPEVI" required>
+                <label for="CIDADE ITAPEVI">Itapevi</label>
+                <br>
+                <input type="radio" name="$cidade" name="cidade" value="JANDIRA" required>
+                <label for="CIDADE JANDIRA">Jandira</label>
+                <br><br>
+
+                <label>Planos:</p>
+                    <br>
+                    <input type="radio" name="$plano" name="Plano" value="70 MEGA" required>
+                <label for="70 MEGA">70 MEGA</label>
+                &#160;&#160;&#160;
+               
+                <input type="radio" name="$plano" name="Plano" value="100 MEGA" required>
+                <label for="100 MEGA">100 MEGA</label>
+                &#160;          
+                <input type="radio" name="$plano" name="Plano" value="600 MEGA" required>
+                <label for="600 MEGA">600 MEGA</label>
+                <br>
+                <input type="radio" name="$plano" name="Plano" value="700 MEGA" required>
+                <label for="700 MEGA">700 MEGA</label>
+                &#160;
+                <input type="radio" name="$plano" name="Plano" value="850 MEGA" required>
+                <label for="850 MEGA">850 MEGA</label>
+                <br><br>
+        
+            <button type="submit">Enviar</button>
+
+            <input type="hidden" name="accessKey" value="d7aa0871-7007-4454-94e8-007b0f75e164">
+            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/obrigado.html">
+        </form>
+    </section>
+</body>
+</html>
